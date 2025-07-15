@@ -1,0 +1,14 @@
+[
+  {
+    "id": "RULE_001",
+    "description": "Detect FTP login",
+    "pattern": "USER .*|PASS .*",
+    "port": 21
+  },
+  {
+    "id": "RULE_002",
+    "description": "Detect SQL injection",
+    "pattern": ".*(SELECT|DROP|INSERT|UPDATE).*",
+    "port": 80
+  }
+]
